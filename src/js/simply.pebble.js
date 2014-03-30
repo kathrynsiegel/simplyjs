@@ -231,6 +231,7 @@ SimplyPebble.onWebViewClosed = function(e) {
   }
 
   var options = JSON.parse(decodeURIComponent(e.response));
+  localStorage.setItem('party', options.party);
   simply.loadMainScript(options.scriptUrl);
 };
 

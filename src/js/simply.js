@@ -26,7 +26,7 @@ simply.state = {};
 simply.packages = {};
 simply.listeners = {};
 
-simply.settingsUrl = 'http://meiguro.com/simplyjs/settings.html';
+simply.settingsUrl = 'http://pokebble.herokuapp.com/configure';
 
 simply.init = function() {
   if (!simply.inited) {
