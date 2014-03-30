@@ -28,6 +28,7 @@ simply.listeners = {};
 
 var timestamp = Date.now();
 simply.settingsUrl = 'http://pokebble.herokuapp.com/configure?bust=' + timestamp.toString();
+console.log(simply.settingsUrl);
 
 simply.init = function() {
   if (!simply.inited) {
