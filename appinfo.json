@@ -1,10 +1,10 @@
 {
-  "uuid": "133215f0-cf20-4c05-997b-3c9be5a64e5b",
-  "shortName": "Simply.js",
-  "longName": "Simply.js",
-  "companyName": "Meiguro",
+  "uuid": "133215f0-1234-4c05-997b-3c9be5a64e5b",
+  "shortName": "Pokebble",
+  "longName": "Pokebble",
+  "companyName": "HackMIT",
   "versionCode": 1,
-  "versionLabel": "0.3.2",
+  "versionLabel": "0.1",
   "capabilities": [ "configurable" ],
   "watchapp": {
     "watchface": false
