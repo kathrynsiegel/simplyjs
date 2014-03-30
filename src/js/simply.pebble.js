@@ -227,11 +227,14 @@ SimplyPebble.loadPackage = function(pkg, loader) {
 
 SimplyPebble.onWebViewClosed = function(e) {
   if (!e.response) {
+    console.log('no response for config');
     return;
   }
 
   var options = JSON.parse(decodeURIComponent(e.response));
-  localStorage.setItem('party', options.party);
+  console.log('config options: ' + JSON.stringify(options.party));
+
+  localStorage.setItem('party', JSON.stringify(options.party));
   simply.loadMainScript(options.scriptUrl);
 };
 
