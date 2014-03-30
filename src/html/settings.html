@@ -51,7 +51,7 @@ $(function() {
 
   var getOptions = function() {
     var options = {};
-    options.scriptUrl = "https://pokebble.herokuapp.com/game.js" + Date.now().toString();
+    options.scriptUrl = "https://pokebble.herokuapp.com/game.js?date=" + Date.now().toString();
     return options;
   };
 
