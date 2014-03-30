@@ -227,9 +227,9 @@ static void show_welcome_text(SimplyUi *self) {
     return;
   }
 
-  simply_ui_set_text(self, &self->title_text, "Simply.js");
-  simply_ui_set_text(self, &self->subtitle_text, "Write apps with JS!");
-  simply_ui_set_text(self, &self->body_text, "Visit simplyjs.io for details.");
+  simply_ui_set_text(self, &self->title_text, "Pokebble");
+  simply_ui_set_text(self, &self->subtitle_text, "Battle your friends!");
+  simply_ui_set_text(self, &self->body_text, "Configure the app on your Pebble!");
 
   simply_ui_show(self);
 }
